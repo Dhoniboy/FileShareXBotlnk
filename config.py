@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 PORT = os.environ.get("PORT", "8080")
 
 #shortlink
-SHORTENER_API = os.environ.get("SHORTENER_API", "1aab74171e9891abd0ba799e3fd568c9598a79e1")
-SHORTENER_SITE = os.environ.get("SHORTENER_SITE", "droplink.co")
+SHORTENER_API = os.environ.get("SHORTENER_API", "2fb13013dc0948a0ed6ff8b5cb01da48f274acf2")
+SHORTENER_SITE = os.environ.get("SHORTENER_SITE", "tnshort.net")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "")
